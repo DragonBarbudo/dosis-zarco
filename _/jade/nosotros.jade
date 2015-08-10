@@ -1,0 +1,35 @@
+include ../_config.jade
+
++html5
+  +head("Nosotros | " + title, stylesheets, keywords, description)
+  body    
+    
+    header
+      h1.logotipo
+        a(href=domain): img(src="_/img/zarco.png", alt="Zarco")
+      nav: +menuList('nosotros', menu)
+    
+    
+    .container
+      .col6.col-t10.col-m10.push3.push-t1.push-m1
+        article.modulo
+          h2(data="MISIÓN") MISIÓN
+          p Nuestro mayor interés es brindarte un producto de calidad con una correcta asesoría, así como un excelente servicio a un precio competitivo.
+    .container
+      .col6.col-m12
+        article.modulo
+          h2(data="TIENDA") TIENDA
+        .tiendaSlider
+          .slider.multiple
+            div: a(href="http://lorempixel.com/600/600").boxLink: img(src="http://lorempixel.com/300/300", alt="").w100
+            div: a(href="http://lorempixel.com/600/600").boxLink: img(src="http://lorempixel.com/300/300", alt="").w100
+            div: a(href="http://lorempixel.com/600/600").boxLink: img(src="http://lorempixel.com/300/300", alt="").w100 
+            div: a(href="http://lorempixel.com/600/600").boxLink: img(src="http://lorempixel.com/300/300", alt="").w100
+            div: a(href="http://lorempixel.com/600/600").boxLink: img(src="http://lorempixel.com/300/300", alt="").w100
+            div: a(href="http://lorempixel.com/600/600").boxLink: img(src="http://lorempixel.com/300/300", alt="").w100 
+      .col6.col-m12
+        article.modulo
+          h2(data="MARCAS") MARCAS
+        .marcasSlider
+          +slider('multiple', 'http://lorempixel.com/300/300', 'http://lorempixel.com/300/300', 'http://lorempixel.com/300/300', 'http://lorempixel.com/300/300', 'http://lorempixel.com/300/300', 'http://lorempixel.com/300/300')
+    +scripts

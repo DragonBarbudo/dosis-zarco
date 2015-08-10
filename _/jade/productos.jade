@@ -1,0 +1,47 @@
+include ../_config.jade
+
++html5
+  +head("Productos | " + title, stylesheets, keywords, description)
+  body    
+    
+    header
+      h1.logotipo
+        a(href=domain): img(src="_/img/zarco.png", alt="Zarco")
+      nav: +menuList('productos', menu)
+    
+    
+
+    .container
+      .col6.col-t12.col-m12
+        article.modulo
+          h2(data="CATEGORÍAS") CATEGORÍAS
+        .categoriasSlider
+          .slider.one
+            div 
+              .container
+                .col6
+                  h3 Cascos
+                  img(src="_/img/helmet.jpg", alt="Casco").w100
+                .col6 
+                  p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, odio quidem incidunt officiis, esse eius alias! Atque iste sapiente explicabo dignissimos architecto perspiciatis enim sint quos similique! Ratione, dolorem provident.
+            div 
+              .container
+                .col6
+                  h3 Accesorios
+                  img(src="_/img/helmet.jpg", alt="Casco").w100
+                .col6 
+                  p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, odio quidem incidunt officiis, esse eius alias! Atque iste sapiente explicabo dignissimos architecto perspiciatis enim sint quos similique! Ratione, dolorem provident.
+
+      .col6.col-t12.col-m12
+        article.modulo
+          h2(data="CATÁLOGOS") CATÁLOGOS
+        .catalogosSlider
+          .slider.multiple
+            div: a(href="#"): img(src="http://lorempixel.com/300/300", alt="").w100
+            div: a(href="#"): img(src="http://lorempixel.com/300/300", alt="").w100
+            div: a(href="#"): img(src="http://lorempixel.com/300/300", alt="").w100 
+            div: a(href="#"): img(src="http://lorempixel.com/300/300", alt="").w100
+            div: a(href="#"): img(src="http://lorempixel.com/300/300", alt="").w100
+            div: a(href="#"): img(src="http://lorempixel.com/300/300", alt="").w100 
+        
+    +scripts

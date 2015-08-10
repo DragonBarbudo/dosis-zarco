@@ -1,0 +1,27 @@
+include ../_config.jade
+
++html5
+  +head("Distribuidor | " + title, stylesheets, keywords, description)
+  body    
+    
+    header
+      h1.logotipo
+        a(href=domain): img(src="_/img/zarco.png", alt="Zarco")
+      nav: +menuList('distribuidor', menu)
+    
+    
+
+    .container
+      .col6.col-m12.col-t12
+        article.modulo
+          h2(data="MATERIALES") MATERIALES
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit culpa, tenetur temporibus, omnis dolores nesciunt officiis quisquam blanditiis reprehenderit fugit ut beatae nobis repellat! Tenetur recusandae quis, iste sit quia!
+        
+
+      .col6.col-m12.col-t12
+        article.modulo
+          h2(data="FRANQUICIAS") FRANQUICIAS
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum aliquid perferendis harum maiores, dignissimos laboriosam! Velit labore optio libero dicta similique excepturi fugit sit, magnam, cum quis, dignissimos vero doloribus?
+        
+        
+    +scripts

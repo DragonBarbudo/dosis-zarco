@@ -1,0 +1,16 @@
+include ../_config.jade
+
++html5
+  +head(title, stylesheets, keywords, description)
+  body    
+    
+    header
+      h1.logotipo
+        a(href=domain): img(src="_/img/zarco.png", alt="Zarco")
+      nav: +menuList('inicio', menu)
+    
+    
+    section.startText IMPORTACIÓN Y DISTRIBUCIÓN <br> <strong>DE ACCESORIOS Y REFACCIONES</strong> PARA EL MOTOCICLISMO
+    
+
+    +scripts

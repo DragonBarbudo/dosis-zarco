@@ -1,0 +1,33 @@
+include ../_config.jade
+
++html5
+  +head("Contacto | " + title, stylesheets, keywords, description)
+  body    
+    
+    header
+      h1.logotipo
+        a(href=domain): img(src="_/img/zarco.png", alt="Zarco")
+      nav: +menuList('contacto', menu)
+    
+    
+
+    .container
+      .col6.col-m12
+        .label Envíenos un mensaje a través del siguiente formulario:
+        form(action="#")
+          input(type="text", placeholder="Nombre", name="Nombre", required)
+          input(type="email", placeholder="Correo electrónico", name="Correo", required)
+          input(type="phone", placeholder="Teléfono", name="Telefono", required)
+          textarea(placeholder="Mensaje", name="Mensaje", required)
+          .align-center
+            button(type="submit") Enviar mensaje
+      .col6.col-m12
+        .label Encuéntrenos en nuestras redes sociales:
+        .socials.container
+          a(href="#").col4: i.fa.fa-facebook
+          a(href="#").col4: i.fa.fa-twitter
+          a(href="#").col4: i.fa.fa-linkedin
+        .label O a través de nuestro correo electrónico:
+        .container
+          a(href="mailto:ventas@zarco.mx").col12.mailLink ventas@zarco.mx
+    +scripts

@@ -1,0 +1,19 @@
+include ../_config.jade
+
++html5
+  +head("Promociones | " + title, stylesheets, keywords, description)
+  body    
+    
+    header
+      h1.logotipo
+        a(href=domain): img(src="_/img/zarco.png", alt="Zarco")
+      nav: +menuList('promociones', menu)
+    
+    
+
+    .container
+      .col12
+        +slider('one', '_/img/promo1.png', '_/img/promo2.png')
+        
+        
+    +scripts
