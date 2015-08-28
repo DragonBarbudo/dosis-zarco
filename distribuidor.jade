@@ -1,13 +1,13 @@
-include ../_config.jade
+include _/_config.jade
 
 +html5
   +head("Distribuidor | " + title, stylesheets, keywords, description)
   body    
-    
+    +sliderbg('body', '_/img/bg.jpg', '_/img/bg2.jpg', '_/img/bg3.jpg')
     header
-      h1.logotipo
+      h1.logotipo(data-sr="enter left move 100%")
         a(href=domain): img(src="_/img/zarco.png", alt="Zarco")
-      nav: +menuList('distribuidor', menu)
+      nav: +menu('distribuidor', menu)
     
     
 

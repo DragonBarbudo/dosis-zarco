@@ -1,13 +1,13 @@
-include ../_config.jade
+include _/_config.jade
 
 +html5
   +head("Productos | " + title, stylesheets, keywords, description)
   body    
-    
+    +sliderbg('body', '_/img/bg.jpg', '_/img/bg2.jpg', '_/img/bg3.jpg')
     header
-      h1.logotipo
+      h1.logotipo(data-sr="enter left move 100%")
         a(href=domain): img(src="_/img/zarco.png", alt="Zarco")
-      nav: +menuList('productos', menu)
+      nav: +menu('productos', menu)
     
     
 
@@ -36,12 +36,6 @@ include ../_config.jade
         article.modulo
           h2(data="CATÁLOGOS") CATÁLOGOS
         .catalogosSlider
-          .slider.multiple
-            div: a(href="#"): img(src="http://lorempixel.com/300/300", alt="").w100
-            div: a(href="#"): img(src="http://lorempixel.com/300/300", alt="").w100
-            div: a(href="#"): img(src="http://lorempixel.com/300/300", alt="").w100 
-            div: a(href="#"): img(src="http://lorempixel.com/300/300", alt="").w100
-            div: a(href="#"): img(src="http://lorempixel.com/300/300", alt="").w100
-            div: a(href="#"): img(src="http://lorempixel.com/300/300", alt="").w100 
+          +slider('multiplebox', 'http://lorempixel.com/300/300', 'http://lorempixel.com/300/300', 'http://lorempixel.com/300/300', 'http://lorempixel.com/300/300', 'http://lorempixel.com/300/300', 'http://lorempixel.com/300/300') 
         
     +scripts

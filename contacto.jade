@@ -1,20 +1,22 @@
-include ../_config.jade
+include _/_config.jade
 
 +html5
   +head("Contacto | " + title, stylesheets, keywords, description)
   body    
-    
+    +sliderbg('body', '_/img/bg.jpg', '_/img/bg2.jpg', '_/img/bg3.jpg')
     header
-      h1.logotipo
+      h1.logotipo(data-sr="enter left move 100%")
         a(href=domain): img(src="_/img/zarco.png", alt="Zarco")
-      nav: +menuList('contacto', menu)
+      nav: +menu('contacto', menu)
     
     
 
     .container
       .col6.col-m12
         .label Envíenos un mensaje a través del siguiente formulario:
-        form(action="#")
+        +formSimple('contacto@zarco.com.mx', 'contacto@zarco.com.mx', 'Nuevo mensaje del sitio ZARCO')
+        
+        //form(action="#")
           input(type="text", placeholder="Nombre", name="Nombre", required)
           input(type="email", placeholder="Correo electrónico", name="Correo", required)
           input(type="phone", placeholder="Teléfono", name="Telefono", required)

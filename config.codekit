@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19033",
+"creatorBuild": "19051",
 "files": {
 	"\/_\/_config.jade": {
 		"compileDebug": 1,
@@ -53,6 +53,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_\/img\/bg2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 540221,
+		"inputAbbreviatedPath": "\/_\/img\/bg2.jpg",
+		"outputAbbreviatedPath": "\/_\/img\/bg2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/img\/bg3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 287331,
+		"inputAbbreviatedPath": "\/_\/img\/bg3.jpg",
+		"outputAbbreviatedPath": "\/_\/img\/bg3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_\/img\/helmet.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -86,6 +108,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_\/img\/pxhelmet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38611,
+		"inputAbbreviatedPath": "\/_\/img\/pxhelmet.png",
+		"outputAbbreviatedPath": "\/_\/img\/pxhelmet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/img\/pxjacket.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49480,
+		"inputAbbreviatedPath": "\/_\/img\/pxjacket.png",
+		"outputAbbreviatedPath": "\/_\/img\/pxjacket.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/img\/pxmoto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 135440,
+		"inputAbbreviatedPath": "\/_\/img\/pxmoto.png",
+		"outputAbbreviatedPath": "\/_\/img\/pxmoto.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/img\/pxmoto2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139723,
+		"inputAbbreviatedPath": "\/_\/img\/pxmoto2.png",
+		"outputAbbreviatedPath": "\/_\/img\/pxmoto2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_\/img\/zarco.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -97,72 +163,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_\/jade\/contacto.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/jade\/contacto.jade",
-		"outputAbbreviatedPath": "\/contacto.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/_\/jade\/distribuidor.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/jade\/distribuidor.jade",
-		"outputAbbreviatedPath": "\/distribuidor.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/_\/jade\/index.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/jade\/index.jade",
-		"outputAbbreviatedPath": "\/index.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/_\/jade\/nosotros.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/jade\/nosotros.jade",
-		"outputAbbreviatedPath": "\/nosotros.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/_\/jade\/productos.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/jade\/productos.jade",
-		"outputAbbreviatedPath": "\/productos.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/_\/jade\/promociones.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/jade\/promociones.jade",
-		"outputAbbreviatedPath": "\/promociones.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
 	"\/_\/js\/_script.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -171,21 +171,70 @@
 		"outputAbbreviatedPath": "\/_\/js\/min\/_script-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
-	"\/_dw\/dw.jade": {
+	"\/contacto.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contacto.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/contacto.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contacto.jade",
+		"outputAbbreviatedPath": "\/contacto.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/distribuidor.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/distribuidor.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/distribuidor.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/distribuidor.jade",
+		"outputAbbreviatedPath": "\/distribuidor.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/dw.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dw.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/dw\/dw.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_dw\/dw.jade",
+		"inputAbbreviatedPath": "\/dw\/dw.jade",
 		"outputAbbreviatedPath": "\/dw.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/_dw\/dw.less": {
+	"\/dw\/dw.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -193,7 +242,7 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_dw\/dw.less",
+		"inputAbbreviatedPath": "\/dw\/dw.less",
 		"outputAbbreviatedPath": "\/css\/dw.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -205,7 +254,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/_dw\/libs\/lesshat.less": {
+	"\/dw\/libs\/grid.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -213,8 +262,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_dw\/libs\/lesshat.less",
-		"outputAbbreviatedPath": "\/_dw\/css\/lesshat.css",
+		"inputAbbreviatedPath": "\/dw\/libs\/grid.less",
+		"outputAbbreviatedPath": "\/dw\/css\/grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -225,23 +274,138 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/dw.html": {
-		"fileType": 8192,
+	"\/dw\/libs\/lesshat.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dw.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/dw\/libs\/lesshat.less",
+		"outputAbbreviatedPath": "\/dw\/css\/lesshat.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
+	"\/dw\/libs\/mediaqueries.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/dw\/libs\/mediaqueries.less",
+		"outputAbbreviatedPath": "\/dw\/css\/mediaqueries.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/dw\/libs\/reset.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dw\/libs\/reset.less",
+		"outputAbbreviatedPath": "\/dw\/css\/reset.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/dw\/libs\/strip.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dw\/libs\/strip.js",
+		"outputAbbreviatedPath": "\/dw\/libs\/min\/strip-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
+		},
+	"\/dw\/libs\/strip.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dw\/libs\/strip.less",
+		"outputAbbreviatedPath": "\/dw\/css\/strip.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/dw\/libs\/visualStates.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dw\/libs\/visualStates.less",
+		"outputAbbreviatedPath": "\/dw\/css\/visualStates.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1882,
+		"inputAbbreviatedPath": "\/favicon.png",
+		"outputAbbreviatedPath": "\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.jade",
+		"outputAbbreviatedPath": "\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
 		},
 	"\/nosotros.html": {
 		"fileType": 8192,
@@ -252,6 +416,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/nosotros.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/nosotros.jade",
+		"outputAbbreviatedPath": "\/nosotros.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/productos.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -260,6 +435,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/productos.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/productos.jade",
+		"outputAbbreviatedPath": "\/productos.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
 		},
 	"\/promociones.html": {
 		"fileType": 8192,
@@ -270,26 +456,16 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
+	"\/promociones.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/README.html",
-		"outputFormat": 0,
+		"inputAbbreviatedPath": "\/promociones.jade",
+		"outputAbbreviatedPath": "\/promociones.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputStyle": 0
 		}
 	},
 "hooks": [
@@ -300,7 +476,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "dosisaltas-zarco",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "globe_blue"
 	},
 "projectSettings": {
@@ -470,15 +646,15 @@
 	"jadeAutoOutputPathStyle": 1,
 	"jadeCompileDebug": 1,
 	"jadeOutputStyle": 0,
-	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathEnabled": 0,
 	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
 	"javascriptAutoOutputPathRelativePath": "\/min",
 	"javascriptAutoOutputPathReplace1": "",
 	"javascriptAutoOutputPathReplace2": "",
 	"javascriptAutoOutputPathStyle": 2,
 	"javascriptCreateSourceMap": 1,
-	"javascriptOutputStyle": 1,
-	"javascriptSyntaxCheckerStyle": 1,
+	"javascriptOutputStyle": 0,
+	"javascriptSyntaxCheckerStyle": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
@@ -783,10 +959,6 @@
 			}
 		},
 	"jsLintFlags2": {
-		"ass": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
@@ -795,15 +967,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"closure": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"continue": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"debug": {
+		"couch": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -811,75 +975,27 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"eqeq": {
+		"es6": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"evil": {
+		"eval": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"forin": {
+		"for": {
 			"active": 0,
 			"flagValue": -1
-			},
-		"indent": {
-			"active": 0,
-			"flagValue": 4
 			},
 		"maxlen": {
 			"active": 0,
 			"flagValue": 150
 			},
-		"newcap": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"node": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"nomen": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"plusplus": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"properties": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"regexp": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"rhino": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sloppy": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"stupid": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sub": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"todo": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"unparam": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"vars": {
+		"this": {
 			"active": 0,
 			"flagValue": -1
 			},

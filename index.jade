@@ -1,0 +1,25 @@
+include _/_config.jade
+
++html5
+  +head(title, stylesheets, keywords, description)
+  body    
+    
+    
+    +sliderbg('body', '_/img/bg.jpg', '_/img/bg2.jpg', '_/img/bg3.jpg')
+    
+    header
+      h1.logotipo(data-sr="enter left move 100%")
+        a(href=domain): img(src="_/img/zarco.png", alt="Zarco")
+      nav: +menu('inicio', menu)
+    
+    
+    section.startText 
+      span(data-sr="wait 0.5s") IMPORTACIÓN Y DISTRIBUCIÓN
+      br
+      strong(data-sr="enter right wait 1.0s") DE ACCESORIOS Y REFACCIONES
+      span(data-sr="wait 1.5s") PARA EL MOTOCICLISMO
+    
+    ul#parallax(data-limit-y="0")
+      li(data-depth="1.80").layer.pxm: img(src="_/img/pxmoto.png")
+      li(data-depth="1.40").layer.pxm: img(src="_/img/pxmoto2.png")
+    +scripts
